@@ -1,0 +1,150 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111315">
+    <meta name="description" content="Instruções para excluir sua conta e seus dados do aplicativo Crivo.">
+    <title>Exclusão de conta — Crivo</title>
+    <link rel="icon" href="../assets/icon.png">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="../" aria-label="Página inicial do Crivo">
+          <img src="../assets/icon.png" alt="" width="38" height="38">
+          <span class="brand-name">CRIVO</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="../privacidade/">Privacidade</a>
+          <a href="../termos/">Termos</a>
+          <a href="./" aria-current="page">Excluir conta</a>
+          <a href="../suporte/">Suporte</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="document-main">
+      <header class="document-header">
+        <p class="eyebrow">Controle dos seus dados</p>
+        <h1>Exclusão de conta</h1>
+        <p class="document-summary">
+          Você pode excluir sua conta do Crivo diretamente pelo aplicativo ou enviar uma
+          solicitação externa caso não consiga acessá-lo.
+        </p>
+        <div class="document-meta">
+          <span>Última atualização: {{ site.last_updated }}</span>
+        </div>
+      </header>
+
+      <article class="document-content">
+        <section>
+          <h2>Excluir pelo aplicativo</h2>
+          <ol>
+            <li>Abra o Crivo e entre na sua conta.</li>
+            <li>Acesse a tela de Perfil.</li>
+            <li>Abra as opções da conta.</li>
+            <li>Selecione “Excluir conta e dados”.</li>
+            <li>Leia o aviso e confirme em “Excluir definitivamente”.</li>
+          </ol>
+          <div class="callout danger-callout">
+            <p>
+              <strong>A exclusão é permanente.</strong> Depois de confirmada, não será
+              possível recuperar a conta, os treinos ou o histórico associado.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Solicitar sem acessar o aplicativo</h2>
+          <p>
+            Se você desinstalou o Crivo, perdeu o acesso ou não consegue concluir a
+            exclusão pelo aplicativo, envie uma solicitação usando o mesmo endereço de
+            e-mail cadastrado na conta.
+          </p>
+          <div class="action-box">
+            <h3>Solicitação por e-mail</h3>
+            <p>
+              Use o assunto “Exclusão de conta — Crivo”. No corpo da mensagem, informe
+              seu handle e o e-mail cadastrado. Não envie senha, token ou documento antes
+              que nossa equipe solicite uma forma segura de verificação.
+            </p>
+            <a class="button" href="mailto:{{ site.support_email }}?subject=Exclus%C3%A3o%20de%20conta%20%E2%80%94%20Crivo&body=Handle%3A%20%0AEmail%20cadastrado%3A%20%0A%0ASolicito%20a%20exclus%C3%A3o%20da%20minha%20conta%20e%20dos%20dados%20associados%20no%20Crivo.">
+              Solicitar exclusão
+            </a>
+          </div>
+          <p>
+            O canal responsável é
+            <a class="inline-link" href="mailto:{{ site.support_email }}?subject=Exclus%C3%A3o%20de%20conta%20%E2%80%94%20Crivo">{{ site.support_email }}</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Verificação da solicitação</h2>
+          <p>
+            Para evitar que terceiros apaguem sua conta, poderemos confirmar a titularidade
+            por meio do e-mail cadastrado ou solicitar informações adicionais estritamente
+            necessárias. A solicitação será processada após a verificação.
+          </p>
+          <p>
+            Se o e-mail utilizado não coincidir com o cadastro, responderemos com
+            instruções alternativas de verificação. Nunca solicitaremos sua senha.
+          </p>
+        </section>
+
+        <section>
+          <h2>Dados excluídos</h2>
+          <p>A exclusão da conta abrange, conforme aplicável:</p>
+          <ul>
+            <li>dados de cadastro, credenciais protegidas e sessões;</li>
+            <li>planejamentos, treinos, atividades e métricas;</li>
+            <li>hábitos e registros de check-in;</li>
+            <li>amizades, solicitações e interações sociais vinculadas à conta;</li>
+            <li>pontuação, PDL e histórico competitivo associado;</li>
+            <li>identificação ou associação do usuário nos serviços de análise utilizados pelo Crivo.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Dados que podem ser conservados</h2>
+          <p>
+            Alguns registros podem ser preservados quando necessários para cumprir
+            obrigação legal, prevenir fraude, investigar abuso, proteger a segurança ou
+            exercer direitos. Nesses casos, o acesso será limitado e os dados serão
+            mantidos somente pelo período necessário.
+          </p>
+          <p>
+            Cópias de segurança podem levar um período limitado para serem substituídas,
+            sem que os dados permaneçam disponíveis para uso normal do serviço.
+          </p>
+        </section>
+
+        <section>
+          <h2>Excluir dados específicos sem encerrar a conta</h2>
+          <p>
+            Para solicitar correção ou exclusão de dados específicos sem apagar toda a
+            conta, entre em contato pelo
+            <a class="inline-link" href="../suporte/">suporte</a>. A possibilidade de
+            atender ao pedido dependerá da natureza do dado e da necessidade de mantê-lo
+            para operar a funcionalidade solicitada.
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© {{ site.current_year }} {{ site.developer_name }}. {{ site.app_name }}.</p>
+        <nav class="footer-links" aria-label="Links do rodapé">
+          <a href="../privacidade/">Privacidade</a>
+          <a href="../termos/">Termos</a>
+          <a href="../suporte/">Contato</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

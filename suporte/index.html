@@ -1,0 +1,145 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111315">
+    <meta name="description" content="Canais de suporte, segurança e denúncias do aplicativo Crivo.">
+    <title>Suporte e denúncias — Crivo</title>
+    <link rel="icon" href="../assets/icon.png">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="../" aria-label="Página inicial do Crivo">
+          <img src="../assets/icon.png" alt="" width="38" height="38">
+          <span class="brand-name">CRIVO</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="../privacidade/">Privacidade</a>
+          <a href="../termos/">Termos</a>
+          <a href="../excluir-conta/">Excluir conta</a>
+          <a href="./" aria-current="page">Suporte</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="document-main">
+      <header class="document-header">
+        <p class="eyebrow">Fale com o Crivo</p>
+        <h1>Suporte e denúncias</h1>
+        <p class="document-summary">
+          Escolha o assunto mais próximo da sua necessidade para que possamos direcionar
+          a solicitação corretamente.
+        </p>
+        <div class="document-meta">
+          <span>Atendimento por e-mail</span>
+        </div>
+      </header>
+
+      <article class="document-content">
+        <section>
+          <h2>Canal principal</h2>
+          <p>
+            Nosso endereço de atendimento é
+            <a class="inline-link" href="mailto:{{ site.support_email }}">{{ site.support_email }}</a>.
+            Inclua detalhes úteis, versão do aplicativo e modelo do aparelho quando a
+            solicitação envolver um problema técnico. Nunca envie senha ou token.
+          </p>
+          <div class="action-box">
+            <h3>Precisa de ajuda geral?</h3>
+            <p>Envie sua dúvida com uma descrição clara do que aconteceu e do resultado esperado.</p>
+            <a class="button" href="mailto:{{ site.support_email }}?subject=Suporte%20-%20Crivo">Falar com o suporte</a>
+          </div>
+        </section>
+
+        <section>
+          <h2>Acesso à conta</h2>
+          <p>
+            Para problemas de login, informe o e-mail cadastrado, o método de acesso
+            utilizado (senha ou Google) e a mensagem de erro exibida. Não compartilhe sua
+            senha. Podemos solicitar confirmação de titularidade antes de alterar dados da
+            conta.
+          </p>
+          <a class="inline-link" href="mailto:{{ site.support_email }}?subject=Acesso%20%C3%A0%20conta%20-%20Crivo">Solicitar ajuda de acesso</a>
+        </section>
+
+        <section>
+          <h2>Denunciar usuário ou conteúdo</h2>
+          <p>
+            Sempre que possível, utilize primeiro as ferramentas de denúncia disponíveis
+            dentro do Crivo. Se não conseguir acessá-las, envie:
+          </p>
+          <ul>
+            <li>handle do usuário denunciado;</li>
+            <li>descrição objetiva do ocorrido;</li>
+            <li>data aproximada e local do aplicativo em que o conteúdo apareceu;</li>
+            <li>capturas de tela, quando puder fornecê-las com segurança;</li>
+            <li>informação sobre risco imediato à integridade de alguém.</li>
+          </ul>
+          <p>
+            Denúncias serão analisadas de acordo com os Termos de Uso. Não informe dados
+            pessoais de terceiros além do estritamente necessário para a apuração.
+          </p>
+          <a class="inline-link" href="mailto:{{ site.support_email }}?subject=Den%C3%BAncia%20de%20conte%C3%BAdo%20ou%20usu%C3%A1rio%20-%20Crivo">Enviar denúncia</a>
+        </section>
+
+        <section>
+          <h2>Privacidade e dados</h2>
+          <p>
+            Para exercer direitos relacionados aos seus dados, utilize o assunto
+            “Privacidade — Crivo” e envie a solicitação pelo endereço cadastrado. Consulte
+            também nossa
+            <a class="inline-link" href="../privacidade/">Política de Privacidade</a>.
+          </p>
+          <a class="inline-link" href="mailto:{{ site.support_email }}?subject=Privacidade%20-%20Crivo">Enviar solicitação de privacidade</a>
+        </section>
+
+        <section>
+          <h2>Excluir a conta</h2>
+          <p>
+            A conta pode ser excluída diretamente no aplicativo. Se você não tiver mais
+            acesso, siga o caminho externo descrito em
+            <a class="inline-link" href="../excluir-conta/">Exclusão de conta</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Vulnerabilidades de segurança</h2>
+          <p>
+            Se encontrar uma possível vulnerabilidade, não explore dados de outras pessoas
+            e não divulgue detalhes publicamente antes de termos oportunidade razoável de
+            investigar. Informe passos de reprodução, impacto potencial e ambiente afetado.
+          </p>
+          <a class="inline-link" href="mailto:{{ site.support_email }}?subject=Seguran%C3%A7a%20-%20Crivo">Comunicar vulnerabilidade</a>
+        </section>
+
+        <section>
+          <h2>Situações urgentes</h2>
+          <div class="callout danger-callout">
+            <p>
+              Se houver risco imediato à vida ou à integridade de alguém, procure os
+              serviços de emergência e as autoridades locais. O suporte do Crivo não é
+              um canal de emergência e pode não responder em tempo real.
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© {{ site.current_year }} {{ site.developer_name }}. {{ site.app_name }}.</p>
+        <nav class="footer-links" aria-label="Links do rodapé">
+          <a href="../privacidade/">Privacidade</a>
+          <a href="../termos/">Termos</a>
+          <a href="../suporte/">Contato</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
