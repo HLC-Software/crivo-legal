@@ -1,10 +1,10 @@
 app_name: "Crivo"
 developer_name: "HLC Software"
-legal_name: "SEU NOME CIVIL COMPLETO"
-support_email: "suporte@seudominio.com"
+legal_name: "Henrique Liberato dos Santos Cavalcante"
+support_email: "support@henriquecavalcante.com"
 last_updated: "3 de agosto de 2026"
 current_year: 2026
-url: "https://crivo.seudominio.com"
+url: "https://crivo.henriquecavalcante.com"
 
 exclude:
   - README.md
